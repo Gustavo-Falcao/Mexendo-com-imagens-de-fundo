@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        table {
+            width: 300px;
+            border-collapse: collapse;
+            height: 300px;
+        }
+
+        tr.linha {
+            background-color: grey;
+        }
+
+        .baixo {
+            vertical-align: bottom;
+        }
+
+        .cima {
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha Tabelas</h1>
+
+    <table>
+        <tr class="linha">
+            <td class="cima">A1</td>
+            <td class="baixo">B1</td>
+            <td class="cima">C1</td>
+        </tr>
+        <tr>
+            <td class="baixo">A2</td>
+            <td class="cima">B2</td>
+            <td class="baixo">C2</td>
+        </tr>
+        <tr class="linha">
+            <td class="cima">A3</td>
+            <td class="baixo">B3</td>
+            <td class="cima">C3</td>
+        </tr>
+        <tr>
+            <td class="baixo">A4</td>
+            <td class="cima">B4</td>
+            <td class="baixo">C4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
